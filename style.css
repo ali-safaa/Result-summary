@@ -1,0 +1,145 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+     background-color: hsla(241, 72%, 46%, 0);
+}
+
+.container {
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     margin: 210px 0;
+}
+
+.first {
+     background-color: hsl(234, 85%, 45%);
+     display: grid;
+     align-items: center;
+     width: fit-content;
+     justify-content: center;
+     padding: 0 20px;
+     border-radius: 15px;
+     box-shadow: 4px 6px 20px #c8c8f6;
+}
+
+h4 {
+     color: rgb(255, 255, 255);
+     font-weight: 700;
+     text-align: center;
+     margin: 25px 0;
+}
+
+.summary {
+     color: black;
+     text-align: start;
+}
+
+h1 {
+     text-align: center;
+     font-weight: 800;
+     color: white;
+     display: grid;
+     font-size: 50px;
+     background-color: hsl(241, 81%, 54%);
+     width: fit-content;
+     padding: 30px 50px;
+     border-radius: 50px;
+     text-align: center;
+     margin: 0 auto;
+}
+
+h3 {
+     font-weight: 700;
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 25px;
+}
+span {
+     color: gray;
+     font-size: 15px;
+}
+
+p {
+     color: rgb(164, 163, 163);
+     text-align: center;
+     width: 200px;
+
+     padding-top: 10px;
+     padding-bottom: 30px;
+     font-size: 15px;
+}
+.second {
+     background-color: white;
+     box-shadow: 4px 6px 20px #c8c8f6;
+     border-radius: 20px;
+     padding: 0 25px;
+}
+.reaction {
+     display: flex;
+     align-items: center;
+     background-color: #f4f4ee;
+     color: hsl(0, 100%, 67%);
+     padding: 10px 0;
+     border-radius: 10px;
+     margin-bottom: 10px;
+}
+
+.icon {
+     padding-left: 10px;
+}
+
+.number {
+     color: hsl(224, 30%, 27%);
+     padding-right: 20px;
+}
+
+.title {
+     padding: 0 20px;
+     flex: 1;
+}
+
+.memory {
+     display: flex;
+     align-items: center;
+     background-color: #ffffb5;
+     color: black;
+     padding: 10px 0;
+     border-radius: 10px;
+     margin-bottom: 10px;
+}
+
+.verbal {
+     display: flex;
+     align-items: center;
+     background-color: #f4f4ee;
+     color: #9494a5;
+     padding: 10px 0;
+     border-radius: 10px;
+     margin-bottom: 10px;
+}
+
+.visual {
+     display: flex;
+     align-items: center;
+     background-color: #ecebff;
+     color: #37379f;
+     padding: 10px 0;
+     border-radius: 10px;
+     margin-bottom: 10px;
+}
+
+button {
+     background-color: hsl(224, 30%, 27%);
+     padding: 8px 50px;
+     border-radius: 20px;
+     color: white;
+     cursor: pointer;
+     display: flex;
+     margin: 20px auto;
+     border: none;
+}
